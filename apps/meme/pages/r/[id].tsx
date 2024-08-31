@@ -5,6 +5,8 @@ const Page: NextPage<{ id: string }> = ({ id }) => {
   return <Text>not found:{id}</Text>;
 };
 
+export const runtime = "experimental-edge";
+
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
   const redirect: { [key: string]: string } = {
     twitter: "https://x.com/meme__poco",

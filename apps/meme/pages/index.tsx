@@ -2,6 +2,8 @@ const Page = () => {
   return null;
 };
 
+export const runtime = "experimental-edge";
+
 export const getServerSideProps = async () => {
   return {
     redirect: {

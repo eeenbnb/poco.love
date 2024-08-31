@@ -6,7 +6,8 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pages:build": "npx @cloudflare/next-on-pages"
   },
   "dependencies": {
     "@poco.love/components": "*",
@@ -15,6 +16,7 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.2",
     "@poco.love/eslint-config": "*",
     "@poco.love/typescript-config": "*",
     "@types/node": "^20",
