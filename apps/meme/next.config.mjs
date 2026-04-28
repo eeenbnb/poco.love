@@ -4,6 +4,7 @@ import { setupDevPlatform } from "@cloudflare/next-on-pages/next-dev";
 const nextConfig = {
   transpilePackages: ["@poco.love/components"],
   skipTrailingSlashRedirect: true,
+  trailingSlash: false,
   async rewrites() {
     return [
       {
