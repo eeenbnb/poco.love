@@ -11,6 +11,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
   const redirect: { [key: string]: string } = {
     twitter: "https://x.com/meme__poco",
     udn2: "https://x.com/udon_no_nikomi",
+    "r-drop-twitch": "https://eeenbnb.github.io/drop-twitch/",
     "1ac73c8b": "https://x.com/katsudon_udn2", // NOTE: CRC32
   };
   const { id } = ctx.query;
