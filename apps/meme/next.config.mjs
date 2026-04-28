@@ -6,7 +6,7 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/drop-twitch",
+        source: "/drop-twitch/:path*",
         destination: "https://eeenbnb.github.io/drop-twitch/",
       },
     ];
